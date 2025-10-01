@@ -26,7 +26,9 @@ Data Refinement: A comprehensive process was implemented to remove Outliers from
 
 Model Readiness: The clean, refined data was used directly to build and evaluate Linear Regression and Decision Tree Classification models.
 
+
 📂 محتويات المستودع (Repository Contents)
+
 data_cleaning_and_eda.ipynb: ملف مراحل تنظيف البيانات ومعالجة القيم الشاذة.
 
 modeling_and_prediction.ipynb: ملف مراحل النمذجة والتدريب والتقييم النهائي.
@@ -36,29 +38,29 @@ housing_data_cleaned.csv: البيانات النظيفة والنهائية ل�
 
 🚀 كيفية تشغيل المشروع (How to Run the Project)
 
-
 لإعادة إنتاج النتائج، اتبع الخطوات التالية:
 
 المتطلبات (Requirements): تأكد من تثبيت مكتبات pandas, numpy, و scikit-learn (يمكن تثبيتها عبر pip install -r requirements.txt إذا كان لديك هذا الملف).
 
-الاستنساخ (Clone): استنسخ المستودع: git clone [رابط مستودعك]
+الاستنساخ (Clone): استنسخ المستودع: git clone https://github.com/yasser-masad/house-price-analysis.git
 
 التنفيذ (Execution): افتح ملف 02_modeling_and_prediction.ipynb في بيئة Jupyter أو Colab، وقم بتشغيل الخلايا بالتسلسل.
 
-English:
 
 To reproduce the results, follow these steps:
 
 Requirements: Ensure required libraries like pandas, numpy, and scikit-learn are installed.
 
-Clone: Clone the repository: git clone [Your Repository Link]
+Clone: Clone the repository: git clone https://github.com/yasser-masad/house-price-analysis.git
 
 Execution: Open the 02_modeling_and_prediction.ipynb file in a Jupyter or Colab environment and run the cells sequentially.
+
+
 🎯 ملخص النتائج الرئيسية (Key Results Summary)
 
 حقق المشروع أداءً جيدا وموثوقًا عبر مقاييس الانحدار والتصنيف، حيث تم الوصول إلى افضل أداء بفضل تغيير وتعديل بعض معاملات ودوال شجرة القرار لتحقيق الكفاءة القصوى.
 
-في الانحدار (توقع السعر): تم تحقيق معامل تحديد (R2) يصل الى 0.62 مما يمثل جودة التنبؤ بالقيمة الفعلية للمنزل 
+في الانحدار (توقع السعر): تم تحقيق معامل تحديد (R2) يصل الى [0.62] مما يمثل جودة التنبؤ بالقيمة الفعلية للمنزل 
 
 في تصنيف سعر المنزل (غالي/رخيص): كان الأداء قويًا بشكل خاص في اكتشاف المنازل الغالية، حيث وصلت الدقة (Accuracy) إلى [80%]، ووصل الـ Recall إلى [81%].
 
