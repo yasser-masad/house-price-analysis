@@ -74,6 +74,9 @@ In Home Price Classification (Expensive/Cheap): Performance was particularly rob
 
 
 👤  (Author)
+
  (Name): [ياسر مسعد المطرفي]
+ 
  GitHub: [@yasser-masad]
+ 
 LinkedIn: [https://bit.ly/42j8wQG]
